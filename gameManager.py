@@ -36,7 +36,7 @@ while not state.isGameOver():
 	#Accept a new move in 5 seconds
 	timer = threading.Timer(5.0, lambda: timeexceeded(new_player))
 	timer.start()
-	new_move = {'A': botA, 'B': botB}[new_player].stdout.readline()
+	new_move = {'A': botA, 'B': botB}[new_player].stdout.readline()[:-1]
 	timer.cancel()
 	
 	#validate move
