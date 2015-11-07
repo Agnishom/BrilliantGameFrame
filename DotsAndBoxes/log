@@ -1,98 +1,100 @@
 A
 B
-Player A: D8L
-Player B: H6R
-Player A: D2L
-Player B: D4B
-Player A: B7L
-Player B: H8R
-Player A: F1R
-Player B: B5T
-Player A: C1T
-Player B: D6L
+Player A: H3B
+Player B: B4B
+Player A: E2T
+Player B: C2L
 Player A: E2B
-Player B: F4L
-Player A: G1B
-Player B: B4L
-Player A: A3T
-Player B: G8L
-Player A: G3L
-Player B: B2L
-Player A: F3T
-Player B: C3L
-Player A: B6T
-Player B: D8B
-Player A: F8T
-Player B: F7B
-Player A: A1R
-Player B: B1R
-Player A: B8L
-Player B: A8B
-Player A: H6L
-Player B: F1T
+Player B: A6L
+Player A: B2L
+Player B: D7B
+Player A: C1T
+Player B: A7R
+Player A: C6R
+Player B: B6L
 Player A: B4T
-Player B: C7T
-Player A: G4T
-Player B: A3B
-Player A: C2T
-Player B: D3L
-Player A: H5T
-Player B: F5L
-Player A: H5L
-Player B: E2L
-Player A: B3B
-Player B: G6B
-Player A: B6L
-Player B: F5T
-Player A: G4L
-Player B: F8L
-Player A: G1R
-Player B: G8R
-Player A: G2T
-Player B: G8T
-Player A: H5R
-Player B: D6T
-Player A: G7L
-Player B: D1B
-Player A: H8T
-Player B: C1R
-Player A: E5B
-Player B: D5B
-Player A: C3T G5L H4T F2L
-Player B: H3R
-Player A: H3T
-Player B: E1L
-Player A: B2B
-Player B: C4T
-Player A: H2B
-Player B: H7T H3L
-Player A: E8B
+Player B: H4R
+Player A: E8R
+Player B: C1B
+Player A: G8L
 Player B: C4L
-Player A: C8T
-Player B: D3B
-Player A: G6L
-Player B: B3L
-Player A: E6L
-Player B: A1B
-Player A: A5L
-Player B: F2T
-Player A: H3B G2B D1T F1L
-Player B: D8T
-Player A: H2L
-Player B: A1L
-Player A: G7T A1T E3L D4L A2L H4L
-Player B: B5L
-Player A: A6T
-Player B: H6T C7B
-Player A: H7L
-Player B: F3L H7R E3T
-Player A: E4L H4R A6L
-Player B: A5T C2L B7R
-Player A: B8B E8L H1R
-Player B: D7L C8L G4B A7L C6L C6B F4T E5L
-Player A: E5T E1B F8B C5L B3T H2R A4T D7R E3B A3L C1B D6B H1B E8T E7B
-Player B: A8T
+Player A: G5B
+Player B: D1L
+Player A: B1T
+Player B: B8R
+Player A: C3T
+Player B: E1L
+Player A: A3B
+Player B: H1L
+Player A: E8B
+Player B: C3R
+Player A: H5L
+Player B: A8L
+Player A: D5R
+Player B: G2B
+Player A: F3R
+Player B: B6R
+Player A: B8T
+Player B: A2L
+Player A: G7T
+Player B: C5B
+Player A: E3R
+Player B: D8B
+Player A: D7R
+Player B: A7T
+Player A: H2R
+Player B: D2R
+Player A: F5B
+Player B: E6T
+Player A: A6B
+Player B: A8R
+Player A: D4L C7R H6T
+Player B: E3T
+Player A: F6L
+Player B: A4T
+Player A: G8T
+Player B: D5L
+Player A: F1L
+Player B: H5T
+Player A: G7R
+Player B: D8L
+Player A: A4L
+Player B: F3T
+Player A: E8T
+Player B: D3T
+Player A: A1R
+Player B: G6T
+Player A: H7T
+Player B: G4R
+Player A: C7B
+Player B: G4B
+Player A: E3L D2L
+Player B: A1T D1T
+Player A: B6T
+Player B: F7R H7R G2R
+Player A: C3B F1T
+Player B: C5T E5R
+Player A: E4T
+Player B: A6T D6B
+Player A: H3L
+Player B: B2T G6B
+Player A: G1B
+Player B: H5B
+Player A: F5T
+Player B: F3B E6L A5L
+Player A: F1B
+Player B: C8T
+Player A: A4R G6R
+Player B: A7L C8B H3R
+Player A: F7T
+Player B: B1B
+Player A: A1B
+Player B: A3R
+Player A: B5R A1L G4L G6L F8T H5R F7B D2T B7T G8R A5R H1R
+Player B: E6B E7R B1R F1R C7L E4L
+Player A: D4T H1T E8L H6R H8T
+Player B: F4L F2R
 halt
 halt
-Score A: 48
-Score B: 16
+Score A: 42
+Score B: 22

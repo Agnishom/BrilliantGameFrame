@@ -29,7 +29,10 @@ while True:
 	sys.stdout.write(move + '\n')
 	sys.stdout.flush()
 	if switchPlayersFlag:
-		moves = raw_input().split(' ')
+		moves = raw_input()
+		if 'halt' in moves:
+			sys.exit()
+		moves = moves.split(' ')
 		for move in moves:
 			state.move(move[:2],move[2])
 		switchPlayersFlag = False
