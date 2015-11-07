@@ -38,7 +38,7 @@ while not state.isGameOver():
 	timer.start()
 	new_move = {'A': botA, 'B': botB}[new_player].stdout.readline()[:-1]
 	timer.cancel()
-	
+
 	#validate move
 	try:
 		state.move(new_move[:2],new_move[2])
@@ -52,6 +52,8 @@ while not state.isGameOver():
 	if state.player != new_player:
 		new_player = state.player
 		{'A': botA, 'B': botB}[new_player].stdin.write(" ".join(moves) + "\n")
+		#The following line is fine
+		logFile.write({'A': "Player B: ", 'B': "Player A: "}[new_player])
 		logFile.write(" ".join(moves) + "\n")
 		{'A': botA, 'B': botB}[new_player].stdin.flush()
 		logFile.flush()
@@ -68,3 +70,6 @@ logFile.write("Score A: " + str(state.score['A']) + '\n')
 logFile.write("Score B: " + str(state.score['B']) + '\n')
 
 logFile.close()
+
+#Show the game state just for visual pleasure
+#print state

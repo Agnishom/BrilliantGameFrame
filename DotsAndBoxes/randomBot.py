@@ -18,11 +18,18 @@ if playOrder == 'B':
 	for move in moves:
 		state.move(move[:2],move[2])
 
+switchPlayersFlag = False
+
 while True:
+	old_player = state.player
 	move = generateRandomMove(state)
 	state.move(move[:2],move[2])
+	if state.player != old_player:
+		switchPlayersFlag = True
 	sys.stdout.write(move + '\n')
 	sys.stdout.flush()
-	moves = raw_input().split(' ')
-	for move in moves:
-		state.move(move[:2],move[2])
+	if switchPlayersFlag:
+		moves = raw_input().split(' ')
+		for move in moves:
+			state.move(move[:2],move[2])
+		switchPlayersFlag = False

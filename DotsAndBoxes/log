@@ -1,44 +1,98 @@
 A
 B
-D5L
-D2B
-B1B
-C2R
-G3T
-G3B
-C6B
-B6B
-A3L
-D4R
-A1L
-D3R
-D7R
-F2R
-C6T
-E6L
-D6L
-E2B
-C3L
-A8L
-E5T
-H5L
-D4L
-G4L
-B8T
-A7T
-F2L
-B8R
-F1T
-G8R
-G7L
-A4T
-D2T
-G7R
-A6R
-A8R
-B1T
-D7T
-D5T
-E5B
-E3T
-Player B exceeded the time limit
+Player A: D8L
+Player B: H6R
+Player A: D2L
+Player B: D4B
+Player A: B7L
+Player B: H8R
+Player A: F1R
+Player B: B5T
+Player A: C1T
+Player B: D6L
+Player A: E2B
+Player B: F4L
+Player A: G1B
+Player B: B4L
+Player A: A3T
+Player B: G8L
+Player A: G3L
+Player B: B2L
+Player A: F3T
+Player B: C3L
+Player A: B6T
+Player B: D8B
+Player A: F8T
+Player B: F7B
+Player A: A1R
+Player B: B1R
+Player A: B8L
+Player B: A8B
+Player A: H6L
+Player B: F1T
+Player A: B4T
+Player B: C7T
+Player A: G4T
+Player B: A3B
+Player A: C2T
+Player B: D3L
+Player A: H5T
+Player B: F5L
+Player A: H5L
+Player B: E2L
+Player A: B3B
+Player B: G6B
+Player A: B6L
+Player B: F5T
+Player A: G4L
+Player B: F8L
+Player A: G1R
+Player B: G8R
+Player A: G2T
+Player B: G8T
+Player A: H5R
+Player B: D6T
+Player A: G7L
+Player B: D1B
+Player A: H8T
+Player B: C1R
+Player A: E5B
+Player B: D5B
+Player A: C3T G5L H4T F2L
+Player B: H3R
+Player A: H3T
+Player B: E1L
+Player A: B2B
+Player B: C4T
+Player A: H2B
+Player B: H7T H3L
+Player A: E8B
+Player B: C4L
+Player A: C8T
+Player B: D3B
+Player A: G6L
+Player B: B3L
+Player A: E6L
+Player B: A1B
+Player A: A5L
+Player B: F2T
+Player A: H3B G2B D1T F1L
+Player B: D8T
+Player A: H2L
+Player B: A1L
+Player A: G7T A1T E3L D4L A2L H4L
+Player B: B5L
+Player A: A6T
+Player B: H6T C7B
+Player A: H7L
+Player B: F3L H7R E3T
+Player A: E4L H4R A6L
+Player B: A5T C2L B7R
+Player A: B8B E8L H1R
+Player B: D7L C8L G4B A7L C6L C6B F4T E5L
+Player A: E5T E1B F8B C5L B3T H2R A4T D7R E3B A3L C1B D6B H1B E8T E7B
+Player B: A8T
+halt
+halt
+Score A: 48
+Score B: 16
