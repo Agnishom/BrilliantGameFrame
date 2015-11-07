@@ -48,3 +48,12 @@ For clarification, we will produce an example game and link to the source of the
 
 * We allow C, C++, Java and Python. Should you wish to use any other language, let us know.
 * You're only allowed at most 5 seconds per move.
+* Violating the time constraint, printing an invalid move, or printing junk data will result the offending party an immediate defeat in the match.
+
+## Participation
+
+* Submissions will be open till November 31, 2015.
+* To participate, email the following to us at brilliantgameframe@gmail.com:
+ 1. Your [Brilliant](http://Brilliant.Org) profile link
+ 2. A zip file containing the necessary scripts, source codes, etc.
+ 3. Instructions on how to get the script running.
