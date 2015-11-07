@@ -33,4 +33,18 @@ The opponent could respond with `C2T` or `C3B`
 
 * A program called the *Game Manager*, run on Agnishom's computer does the job of taking in moves from either player, checking if the moves are legal, scoring, etc.
 ![](https://d18l82el6cdm1i.cloudfront.net/uploads/fxjD5HX3ue-game_arch.png)
-* 
+* All communication (detailed below) will take place through STDIN and STDOUT. After writing each newline to STDOUT, *please flush it*. The communication channels may not work correctly otherwise. Should you have any problems with this, *let us know*.
+* Now, we will detail how each match is played:
+ 1. The *Game Manager* fires up both bots which are ready to accept input.
+ 2. The *Game Manager* chooses the first player (Player A) and writes `A` followed by a newline to its STDIN. It also chooses the second player (Player B) and writes `B` followed by a newline to its STDIN.
+ 3. Player A now produces its first move (followed by a newline) and the move is fed to Player B (through its STDOUT). Next, Player B does the same.
+ ![](https://d18l82el6cdm1i.cloudfront.net/uploads/oaOq1BJNS2-board_with_one_fill.png)
+ 4. WLOG, assume Player A completes a box and gains another turn. In that case, Player A must produce each turn one by one as usual. However, Player B will receive all of player A's moves at once, in one line, each of them separated by spaces.
+ 5. On the event that the *Game Manager* determines that the game has come to a end, each bot receives `halt` (followed by a newline) in their STDINs. Please make sure that your bot stops execution upon receiving the `halt` command.
+
+For clarification, we will produce an example game and link to the source of the *Game Manager* program.
+
+### Miscellaneous
+
+* We allow C, C++, Java and Python. Should you wish to use any other language, let us know.
+* You're only allowed at most 5 seconds per move.
