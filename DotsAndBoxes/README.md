@@ -57,3 +57,9 @@ For clarification, we will produce an example game and link to the source of the
  1. Your [Brilliant](http://Brilliant.Org) profile link
  2. A zip file containing the necessary scripts, source codes, etc.
  3. Instructions on how to get the script running.
+
+## Game Example and Code Snippets
+
+* See [log](https://github.com/Agnishom/BrilliantGameFrame/blob/master/DotsAndBoxes/log) for a game played by two instances of the [Random Bot](https://github.com/Agnishom/BrilliantGameFrame/blob/master/DotsAndBoxes/randomBot.py)
+* [`gameStruct.py`](https://github.com/Agnishom/BrilliantGameFrame/blob/master/DotsAndBoxes/gameStruct.py) contains an implementation of the *Dots and Boxes* data structure. Feel free to use it for your own bot. (If you do so, make sure you have a copy of it in the zip file)
+* [`gameManager.py`](https://github.com/Agnishom/BrilliantGameFrame/blob/master/DotsAndBoxes/gameManager.py) is the *Game Manager*
