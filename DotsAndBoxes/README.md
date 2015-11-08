@@ -20,7 +20,7 @@ The game ends when no more segments can be formed and the one with the maximal n
 
 ### Game Setup and Notation
 
-* We're playing the game on a grid of 9 by 9 dots. In other words, there will be exactly 81 boxes at the end of the game.
+* We're playing the game on a grid of 9 by 9 dots. In other words, there will be exactly 64 boxes at the end of the game.
 ![emptygrid](https://d18l82el6cdm1i.cloudfront.net/uploads/udwu5jm41J-emptygrid.png)
 * As depicted above, the boxes will be denoted in chessboard notation. E.g, `E3` or `C7`
 * The notation for the moves will be a box name followed by `T` (top), `B` (bottom), `R` (right) or `L` (left) without spaces. For example, the green segment below could be described as `A2R` or `B2L`.
